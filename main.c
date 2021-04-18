@@ -40,7 +40,7 @@ int main(){
 				scanf("%d", &deleteok);
 				if(deleteok == 1){
 					deleteProduct(&p[no-1]);
-					printf("삭제되었습니다. \n");
+					printf("삭제되었습니다! \n");
 					count--;
 				}
 			}
