@@ -20,7 +20,7 @@ int main(){
                         break;
                 }
                 else if(menu == 1){
-                        readProduct(p,index);
+			readProduct(p,index);
                 }
                 else if(menu == 2){
                         count += createProduct(&p[index++]);
